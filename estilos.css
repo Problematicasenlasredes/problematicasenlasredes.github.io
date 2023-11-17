@@ -1,0 +1,92 @@
+
+
+@keyframes animacionFondo {
+    0% {
+      background-color: #f070f5; 
+    }
+    30%{
+    background-color: #ee8ec9; 
+}
+    50% {
+      background-color: #9b41c5; 
+    }
+    100% {
+      background-color: #ec9bf3; 
+    }
+  }
+  
+  body {
+    animation: animacionFondo 9s infinite; /* duración de la animación y repetición infinita */
+  }
+  
+
+
+header {
+    background-color: #ffffff; 
+  }
+
+
+  body {
+    color: white;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 110px;
+    font-weight: bold;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+a{
+    color: rgb(157, 48, 172);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+
+h1 {
+    text-shadow: 4px 4px#ef32d9;
+
+    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+
+    color: transparent;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  details {
+    background: #f38ba5;
+    padding: .5rem;
+    border-radius: 6px;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000; 
+    padding: 10px; 
+}
